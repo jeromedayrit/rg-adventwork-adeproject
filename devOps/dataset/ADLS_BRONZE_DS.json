@@ -1,0 +1,36 @@
+{
+	"name": "ADLS_BRONZE_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnkADLS",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"tableSchema": {
+				"type": "string"
+			},
+			"tableName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@{concat(dataset().tableName,'.parquet')}",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@{concat(dataset().tableSchema,'/',dataset().tableName)}",
+					"type": "Expression"
+				},
+				"fileSystem": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
