@@ -1,0 +1,9 @@
+{
+	"name": "adf-projectadventworks",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "302676e5-ab16-4ede-8c23-aacf30b44500",
+		"tenantId": "1b265b94-d50f-4b63-b12e-59c2a45ef1ca"
+	}
+}
