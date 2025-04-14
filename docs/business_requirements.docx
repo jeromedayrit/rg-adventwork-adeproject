@@ -1,0 +1,14 @@
+Business Request
+  The company has identified a need to better understand customer demographics—particularly the gender distribution—and how it impacts purchasing behavior. 
+  A large volume of customer data currently resides in an on-premises SQL database. 
+  Stakeholders have requested the development of a KPI dashboard that delivers clear insights into sales performance segmented by gender and product category. 
+  The dashboard should display key metrics such as total products sold, total revenue, and a visual breakdown of customer gender. It must also include intuitive filtering options by product category, gender, and support date-based queries through a user-friendly interface.
+
+________________________________________
+    
+Solution Overview
+  To fulfill this business need, we will implement a scalable data pipeline that extracts data from the on-premises SQL database, 
+  loads it into Azure, and applies necessary transformations to optimize it for reporting. 
+  The cleansed and transformed data will serve as the foundation for a customized report that aligns with all stakeholder requirements.
+  The entire pipeline will be automated to run daily, ensuring the dashboard reflects the most current and accurate data available for decision-making
+
