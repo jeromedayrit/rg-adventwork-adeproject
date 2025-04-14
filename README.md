@@ -38,3 +38,7 @@ To fulfill the project requirements, the solution is structured into the followi
   - Azure Key Vault – Secures sensitive information such as secrets, credentials, and connection strings.
   - SQL Server (On-Premises) – Acts as the primary data source for customer and sales information.
   - Azure DevOps – Facilitates Continuous Integration and Continuous Deployment (CI/CD) for pipeline automation and version control.
+
+## ✅ Conclusion
+This project delivers a comprehensive end-to-end data solution that enhances visibility into customer demographics and their influence on sales performance. 
+With automation in place, the data pipeline ensures stakeholders consistently have access to timely, accurate, and actionable insights for informed decision-making.
